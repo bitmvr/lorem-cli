@@ -8,20 +8,24 @@ A small application that allows for a user to generate lorem ipsum copy from a t
 
 ```bash
 git clone git@github.com:bitmvr/lorem-cli.git
-cd ./lorem-cli
 ```
 
-2. Create Python Virtual Environment
+2. Change Directory to project's directory.
+```bash
+cd ./lorem-cli
+``` 
+
+3. Create Python Virtual Environment
 
 ```bash
 python3 -m venv .venv
 ```
 
-3. Activate Python Virtual Environment
+4. Activate Python Virtual Environment
 ```bash
 source ./.venv/bin/activate
 ```
-4. Install Dependencies via `pip`
+5. Install Dependencies via `pip`
 ```bash
 pip install --requirement requirements.txt
 ``` 
